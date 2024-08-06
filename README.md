@@ -1,25 +1,19 @@
-# README
+# Appchat AI Chatbot Gem
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+1. Add gem to app `bundle add appchat`
 
-Things you may want to cover:
+2. Run installer `rails g appchat`
 
-* Ruby version
+3. Start server `bin/dev`
 
-* System dependencies
+4. Now app is running view the chat in browser at `localhost:3000/chats`
 
-* Configuration
+## Ollama Dependency
+We use Ollama llama3.1 model for this app which requires a ollama model running on your machine so first install ollama
 
-* Database creation
+1. Install Ollama on your machine [ollama.com](https://ollama.com/)
+2. Start llama3.1 model `ollama run llama3.1`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# appchat
+## Rails Installation
+If you don't already have Rails installed you can get it by following the installation guide for your machine here [Rails Installation Guide](https://gorails.com/setup)
